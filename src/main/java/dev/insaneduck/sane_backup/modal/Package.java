@@ -1,2 +1,10 @@
-package dev.insaneduck.sane_backup.modal;public class Package {
+package dev.insaneduck.sane_backup.modal;
+
+import lombok.Data;
+
+@Data
+public class Package
+{
+    private String name;
+    private String description;
 }
